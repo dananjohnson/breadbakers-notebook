@@ -1,0 +1,47 @@
+// ===================================
+// Colors
+// ===================================
+
+$palettes: (
+    light:           #FFFFFF,
+    dark:            #000000,
+    highlight:       #FF0000
+);
+
+$site-color-names: map-keys($palettes);
+
+$body-color: palette(dark);
+$body-bg: palette(light);
+$link-color: palette(highlight);
+
+// ===================================
+// Typography
+// ===================================
+
+$root-font-family: Helvetica, sans-serif;
+$root-font-size: 14px;
+$root-line-height: 1.5;
+
+$medium-font-size: 16px;
+$x-large-font-size: 18px;
+
+// ===================================
+// Links
+// ===================================
+$link-offset: 2px;
+$link-underline-opacity: 0.6;
+$link-underline-hover-opacity: 0.8;
+
+// ===================================
+// Layout
+// ===================================
+$container-width: 50rem;
+
+// ===================================
+// Breakpoints
+// ===================================
+$medium: 44em;
+$medium-large: 55em;
+$large: 70em;
+$x-large: 80em;
+$small-only: 0 $medium;

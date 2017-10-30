@@ -1,0 +1,9 @@
+{% comment %}Baking notes{% endcomment %}
+{% if recipe.notes %}
+<h2>Notes</h2>
+<ul>
+  {% for note in recipe.notes %}
+  <li>{{ note }}</li>
+  {% endfor %}
+</ul>
+{% endif %}

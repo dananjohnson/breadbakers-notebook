@@ -1,0 +1,5 @@
+<ul>
+  {% for recipe in site.recipes %}
+  <li><a href="{{ site.baseurl }}{{ recipe.url }}" title="{{ recipe.title }}">{{ recipe.title }}</a></li>
+  {% endfor %}
+</ul>

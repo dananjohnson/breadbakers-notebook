@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include svg-sprite.html %}
+
+    <div class="content">
+      <main role="main">
+        <div class="container">
+          {{ content }}
+        </div>
+      </main>
+    </div>
+
+    {% js main %}
+
+  </body>
+</html>

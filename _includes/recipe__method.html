@@ -1,0 +1,17 @@
+{% comment %}Recipe method{% endcomment %}
+<h2>Method</h2>
+<ol itemprop="recipeInstructions">
+  {% for date in recipe.method %}
+  <li>
+    <h3>Day {{ date.day }}</h3>
+    <ol>
+      {% for step in date.steps %}
+      <li>
+        <span>{{ step.time | date: "%l:%M%P" }}</span>
+        <span>{{ step.instr }}</span>
+      </li>
+      {% endfor %}
+    </ol>
+  </li>
+  {% endfor %}
+</ol>

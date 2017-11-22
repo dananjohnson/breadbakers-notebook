@@ -1,6 +1,6 @@
 ---
 # Overview
-title: Skagit Country Bread
+title: Spelt-Rye Levain
 desc: 'Whole-wheat sourdough with 25% spelt and 12.5% rye. Based on Trevor J. Wilson’s <a href="http://www.breadwerx.com/make-tartine-style-country-bread-video/" title="Tartine Style Country Bread" target="_blank">Tartine Style Country Bread</a>.'
 tags:
   - Yecora Rojo

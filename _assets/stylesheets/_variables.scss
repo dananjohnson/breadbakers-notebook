@@ -18,12 +18,15 @@ $link-color: palette(highlight);
 // Typography
 // ===================================
 
-$root-font-family: Helvetica, sans-serif;
+$root-font-family: "adobe-garamond-pro", serif;
 $root-font-size: 14px;
 $root-line-height: 1.5;
 
 $medium-font-size: 16px;
 $x-large-font-size: 18px;
+
+$headline-font-family: "gastromond", serif;
+$secondary-font-family: "p22-underground-sc", sans-serif;
 
 // ===================================
 // Links
@@ -36,6 +39,7 @@ $link-underline-hover-opacity: 0.8;
 // Layout
 // ===================================
 $container-width: 50rem;
+$global-margin: 2rem;
 
 // ===================================
 // Breakpoints

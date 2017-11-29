@@ -1,9 +1,11 @@
-<h1 itemprop="name">{{ recipe.title }}</h1>
-<p itemprop="description">{{ recipe.desc }}</p>
-{% if recipe.tags %}
-<ul>
-  {% for tag in recipe.tags %}
-  <li>{{ tag }}</li>
-  {% endfor %}
-</ul>
-{% endif %}
+<header>
+  <h1 itemprop="name">{{ recipe.title }}</h1>
+  <p itemprop="description">{{ recipe.desc }}</p>
+  {% if recipe.tags %}
+  <ul class="tags">
+    {% for tag in recipe.tags %}
+    <li class="tag">{{ tag }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</header>

@@ -2,17 +2,17 @@
 <h2>Formula</h2>
 {% for pre-ferment in recipe.pre-ferments %}
 <table>
-  <caption><h3>{{ pre-ferment.name }}</h3></caption>
+  <caption>{{ pre-ferment.name }}</caption>
   <tr>
     <th scope="col">Ingredient</th>
-    <th scope="col">Weight</th>
+    <th scope="col">Weight (g)</th>
     <th scope="col">Baker’s %</th>
   </tr>
   {% for ingredient in pre-ferment.ingredients %}
   <tr>
-    <th scope="row" itemprop="ingredients">{{ ingredient.item }}</th>
-    <td>{{ ingredient.weight }}g</td>
-    <td>{{ ingredient.percentage }}%</td>
+    <td scope="row" itemprop="ingredients">{{ ingredient.item }}</th>
+    <td>{{ ingredient.weight }}</td>
+    <td>{{ ingredient.percentage }}</td>
   </tr>
   {% endfor %}
 </table>
@@ -21,17 +21,17 @@
 {% comment %}Final dough{% endcomment %}
 {% for dough in recipe.final-dough %}
 <table>
-  <caption><h3>{{ dough.name }}</h3></caption>
+  <caption>{{ dough.name }}</caption>
   <tr>
     <th scope="col">Ingredient</th>
-    <th scope="col">Weight</th>
+    <th scope="col">Weight (g)</th>
     <th scope="col">Baker’s %</th>
   </tr>
   {% for ingredient in dough.ingredients %}
   <tr>
-    <th scope="row" itemprop="ingredients">{{ ingredient.item }}</th>
-    <td>{{ ingredient.weight }}g</td>
-    <td>{{ ingredient.percentage }}%</td>
+    <td scope="row" itemprop="ingredients">{{ ingredient.item }}</th>
+    <td>{{ ingredient.weight }}</td>
+    <td>{{ ingredient.percentage }}</td>
   </tr>
   {% endfor %}
 </table>

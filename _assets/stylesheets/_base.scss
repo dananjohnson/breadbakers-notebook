@@ -43,3 +43,41 @@ img {
   display: block;
   max-width: 100%;
 }
+
+// Lists
+ul, ol {
+  padding-left: 1rem;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+// Table Elements
+table {
+  position: relative;
+  margin: $global-margin / 2 0;
+  border-collapse: collapse;
+}
+
+caption {
+  position: absolute;
+  top: 50%;
+  left: - $global-margin / 3;
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+td, th {
+  padding: 0.125em 0.5em 0.25em 0.5em;
+  text-align: right;
+  line-height: 1.25;
+
+  &:first-child {
+    text-align: left;
+  }
+}

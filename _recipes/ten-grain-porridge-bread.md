@@ -1,7 +1,7 @@
 ---
 # Overview
 title: Ten-Grain Porridge Bread
-desc: 'I found some old cooked cereal in my fridge, and so I developed this formula to use it up, along with a couple spare bags of flour I found at the back of the pantry. Not bad for a “kitchen sink” recipe. A large amount of cooked, fermented porridge (31.3%) gives this bread a tender, creamy crumb. Einkorn flour also adds a touch of sweetness.'
+excerpt: 'I found some old cooked cereal in my fridge, and so I developed this formula to use it up, along with a couple spare bags of flour I found at the back of the pantry. Not bad for a “kitchen sink” recipe. A large amount of cooked, fermented porridge (31.3%) gives this bread a tender, creamy crumb. Einkorn flour also adds a touch of sweetness.'
 tags:
   - Yecora Rojo
   - porridge

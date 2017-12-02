@@ -1,7 +1,7 @@
 ---
 # Overview
 title: Brown Rice & Sesame Bread
-desc: 'This formula was inspired by the simple but delicious Japanese dish of short-grain brown rice (<em>genmai</em>) served with toasted sesame seeds and salt (<em>goma-shio</em>). Here, those flavors are incorporated into a hearth loaf with lots of pre-fermented whole wheat flour for an even greater depth of flavor. The formula is based on “Brown Rice Bread” from Hamelman’s <em>Bread</em>.'
+excerpt: 'This formula was inspired by the simple but delicious Japanese dish of short-grain brown rice (<em>genmai</em>) served with toasted sesame seeds and salt (<em>goma-shio</em>). Here, those flavors are incorporated into a hearth loaf with lots of pre-fermented whole wheat flour for an even greater depth of flavor. The formula is based on “Brown Rice Bread” from Hamelman’s <em>Bread</em>.'
 tags:
   - brown rice
   - porridge

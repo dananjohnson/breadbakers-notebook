@@ -1,7 +1,7 @@
 ---
 # Overview
 title: Hundo/Hundo Whole Wheat Sourdough
-desc: "A bread formula for the romantic (or OCD sufferer): 100% whole-grain Yecora Rojo. 100% water. Salt. Nothing more. This formula uses a stiff levain to build strength before the addition of so much water. We also sift a portion of the bran—reincorporating it later as a soaker—to prevent tearing in the dough."
+excerpt: "A bread formula for the romantic (or OCD sufferer): 100% whole-grain Yecora Rojo. 100% water. Salt. Nothing more. This formula uses a stiff levain to build strength before the addition of so much water. We also sift a portion of the bran—reincorporating it later as a soaker—to prevent tearing in the dough."
 tags:
   - Yecora Rojo
   - whole grain

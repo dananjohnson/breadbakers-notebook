@@ -1,6 +1,6 @@
-<header>
+<header class="header">
   <h1 itemprop="name">{{ recipe.title }}</h1>
-  <p itemprop="description">{{ recipe.desc }}</p>
+  <p itemprop="description">{{ recipe.excerpt }}</p>
   {% if recipe.tags %}
   <ul class="tags">
     {% for tag in recipe.tags %}

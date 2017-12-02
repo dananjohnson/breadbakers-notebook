@@ -1,7 +1,7 @@
 ---
 # Overview
 title: Sourdough Seed Levain
-desc: 'A heavily-seeded, hearty loaf based on Jeffrey Hamelman’s Sourdough Seed Bread.'
+excerpt: 'A heavily-seeded, hearty loaf based on Jeffrey Hamelman’s Sourdough Seed Bread.'
 tags:
   - Yecora Rojo
   - seeds

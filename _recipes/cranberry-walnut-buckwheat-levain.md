@@ -1,7 +1,7 @@
 ---
 # Overview
 title: Cranberry, Walnut, & Buckwheat Levain
-desc: 'A mildly sweet, nutty autumn or winter bread with a hint of buckwheat. This formula utilizes both a stiff rye levain and a liquid 100% whole wheat levain for increased complexity. Soaked cranberries, with the soaking liquid incorporated, also increases flavor, while also preventing burning in the berries.'
+excerpt: 'A mildly sweet, nutty autumn or winter bread with a hint of buckwheat. This formula utilizes both a stiff rye levain and a liquid 100% whole wheat levain for increased complexity. Soaked cranberries, with the soaking liquid incorporated, also increases flavor, while also preventing burning in the berries.'
 tags:
   - high hydration
   - dried fruit

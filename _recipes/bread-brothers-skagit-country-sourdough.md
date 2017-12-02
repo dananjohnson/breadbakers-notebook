@@ -1,7 +1,7 @@
 ---
 # Overview
 title: Bread Brothers’ Skagit Country Sourdough
-desc: 'A blend of four identity-preserved wheat flours, showcasing the variety of wheat grown in the coastal Pacific Northwest. Two varieties—Yecora Rojo and Espresso—are high-protein (≈13%), hard wheats, while the other two—Skagit 1109 and Edison—are lower protein (10–11%).'
+excerpt: 'A blend of four identity-preserved wheat flours, showcasing the variety of wheat grown in the coastal Pacific Northwest. Two varieties—Yecora Rojo and Espresso—are high-protein (≈13%), hard wheats, while the other two—Skagit 1109 and Edison—are lower protein (10–11%).'
 tags:
   - high hydration
   - Yecora Rojo

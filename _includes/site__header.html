@@ -1,0 +1,26 @@
+<header class="header header--site">
+  <div class="top-bar top-bar--site">
+    <div class="top-bar__section">
+      <ul class="links">
+        <li class="link search">
+          <form method="get" class="search-bar" action="#">
+        		<label for="search-field"><span class="screen-reader-text">To search this site, enter a search term</span></label>
+        		<input class="search__field" id="search-field" type="search" name="s" value="" aria-required="false" autocomplete="off" placeholder="Search&hellip;" />
+        		<button class="search__submit"><span class="screen-reader-text">Search</span><svg class="icon-search"><use xlink:href="#icon-search"></use></svg></button>
+        	</form>
+          <div id="results-container" class="search__results">
+            <ul id="search-results">
+                <!-- results go here -->
+            </ul>
+            <noscript>Please enable JavaScript to use the search form.</noscript>
+          </div>
+        </li>
+        <li class="link">
+          <a href="{{ site.repository }}" title="Go to GitHub Repository" target="_blank" aria-label="Go to GitHub Repository">
+            <svg class="icon-github"><use xlink:href="#icon-github"></use></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>

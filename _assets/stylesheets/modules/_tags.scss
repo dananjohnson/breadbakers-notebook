@@ -1,0 +1,15 @@
+// =============================================================================
+// Tag Styles
+// =============================================================================
+
+.tags {
+  padding-left: 0;
+  list-style-type: none;
+  @extend %secondary-font;
+  font-size: 0.875rem;
+
+  li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+}

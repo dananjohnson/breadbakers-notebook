@@ -95,3 +95,15 @@ hr {
 // ===================================
 // Special Typographic Classes
 // ===================================
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  position: absolute !important;
+}
+
+.small {
+  font-size: 87.5%;
+}

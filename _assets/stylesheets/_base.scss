@@ -60,16 +60,12 @@ ol {
 
 // Table Elements
 table {
-  position: relative;
   margin: $global-margin / 2 0;
   border-collapse: collapse;
 }
 
 caption {
-  position: absolute;
-  top: 50%;
-  left: - $global-margin / 3;
-  transform: translate(-50%, -50%) rotate(-90deg);
+  margin-bottom: $global-margin / 4;
 }
 
 td, th {

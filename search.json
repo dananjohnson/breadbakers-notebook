@@ -1,0 +1,24 @@
+---
+layout: null
+sitemap: false
+---
+
+{% capture json %}
+[
+  {% assign collections = site.collections | where_exp:'collection','collection.output != false' %}
+  {% for collection in collections %}
+    {% assign docs = collection.docs | where_exp:'doc','doc.sitemap != false' %}
+    {% for doc in docs %}
+      {
+        "title": {{ doc.title | jsonify }},
+        "excerpt": {{ doc.excerpt | markdownify | strip_html | jsonify }},
+        "content": {{ doc.content | markdownify | strip_html | jsonify }},
+        "url": {{ site.baseurl | append: doc.url | jsonify }}
+        {% comment %}TODO: add custom frontmatter data{% endcomment %}
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  {% endfor %}
+]
+{% endcapture %}
+
+{{ json | lstrip }}

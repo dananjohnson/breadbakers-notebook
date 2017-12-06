@@ -1,5 +1,6 @@
 <header class="header">
   <h1 itemprop="name">{{ recipe.title }}</h1>
+  {% include recipe__history.html %}
   <p itemprop="description">{{ recipe.excerpt }}</p>
   {% if recipe.tags %}
   <ul class="tags">

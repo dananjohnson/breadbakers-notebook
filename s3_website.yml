@@ -1,0 +1,19 @@
+s3_id: <%= ENV['S3_ACCESS_KEY_ID'] %>
+s3_secret: <%= ENV['S3_SECRET_KEY'] %>
+s3_bucket: breadbakers-notebook
+
+site: _site/
+
+index_document: index.html
+error_document: 404.html
+
+max_age:
+  "assets/*": 2629000
+  "images/*": 2629000
+  "*": 300
+
+gzip: true
+
+s3_endpoint: us-west-2
+
+s3_reduced_redundancy: true

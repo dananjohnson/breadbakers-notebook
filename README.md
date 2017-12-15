@@ -8,5 +8,4 @@ I began thinking about the potential of Git version control and a simple data fo
 * Web interface: create a simple timeline module for improved readability of recipe method.
 * Web interface: build out tag functionality.
 * Web interface: include ingredients in search index.
-* Repo: create license for project files.
 * Formulas: what would baking be without experimentation? Unlike a version-controlled file, my formulas don't develop linearly. While there may be a “master” version, ingredients, quantities, and methods change from bake to bake without necessarily replacing the previous version of the recipe. Some turn into new recipes, others dead ends, but most become alternatives, riffs on a theme. I’d like to be able to track this entire riverine history, an unfolding corpus of experiments, with all its sprouting, interconnected nodes of discovery. I’m not sure how to do this yet. Could I just use `git branch`? 🤔

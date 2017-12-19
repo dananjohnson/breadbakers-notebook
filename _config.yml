@@ -65,6 +65,7 @@ exclude:
   - tmp
   - bower.json
   - s3_website.yml
+  - LICENSE.md
 plugins:
   - jekyll-assets
 

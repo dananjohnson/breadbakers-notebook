@@ -1,52 +1,51 @@
 {% comment %}Adapted from https://github.com/daviddarnes/alembic/blob/master/_includes/site-search.html{% endcomment %}
 {% comment %}TODO: hide search-results container when search is no longer focused{% endcomment %}
 
-const endpoint = '{{ "/search.json" | relative_url }}';
+'use strict';
 
-const pages = [];
+function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
-fetch(endpoint)
-  .then(blob => blob.json())
-  .then(data => pages.push(...data))
+var endpoint = '{{ "/search.json" | relative_url }}';
+
+var pages = [];
+
+fetch(endpoint).then(function (blob) {
+  return blob.json();
+}).then(function (data) {
+  return pages.push.apply(pages, _toConsumableArray(data));
+});
 
 function findResults(termToMatch, pages) {
-  return pages.filter(item => {
-    const regex = new RegExp(termToMatch, 'gi');
+  return pages.filter(function (item) {
+    var regex = new RegExp(termToMatch, 'gi');
     return item.title.match(regex) || item.excerpt.match(regex) || item.content.match(regex);
   });
 }
 
 function displayResults() {
-  const resultsArray = findResults(this.value, pages);
-  const html = resultsArray.map(item => {
-    return `
-      <li class="search__result">
-        <article class="article">
-          <a href="${item.url}" title="Result — ${item.title}">${item.title}</a>
-          <p>${item.excerpt}</p>
-        </article>
-      </li>`;
+  var resultsArray = findResults(this.value, pages);
+  var html = resultsArray.map(function (item) {
+    return '\n      <li class="search__result">\n        <article class="article">\n          <a href="' + item.url + '" title="Result \u2014 ' + item.title + '">' + item.title + '</a>\n          <p>' + item.excerpt + '</p>\n        </article>\n      </li>';
   }).join('');
-  if ((resultsArray.length == 0) || (this.value == '')) {
-    resultsList.innerHTML = `<p>Sorry, nothing was found</p>`;
+  if (resultsArray.length == 0 || this.value == '') {
+    resultsList.innerHTML = '<p>Sorry, nothing was found</p>';
   } else {
     resultsList.innerHTML = html;
   }
 
-  {% comment %}Show search results container{% endcomment %}
   var container = document.getElementById('results-container');
-  if(!container.classList.contains('active')) {
+  if (!container.classList.contains('active')) {
     container.classList.add('active');
   }
 }
 
-const field = document.querySelector('#search-field');
-const resultsList = document.querySelector('#search-results');
+var field = document.querySelector('#search-field');
+var resultsList = document.querySelector('#search-results');
 
 if (field !== null) {
   field.addEventListener('keyup', displayResults);
 
-  field.addEventListener('keypress', function(event) {
+  field.addEventListener('keypress', function (event) {
     if (event.keyCode == 13) {
       event.preventDefault();
     }

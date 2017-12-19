@@ -3,9 +3,8 @@ source "https://rubygems.org"
 gem 'breakpoint'
 gem 'autoprefixer-rails'
 gem 'uglifier'
+gem 'sprockets-es6'
 
 gem 'jekyll'
 
-group :plugins do
-  gem 'jekyll-assets'
-end
+gem 'jekyll-assets', '~> 2.4.0', group: :jekyll_plugins

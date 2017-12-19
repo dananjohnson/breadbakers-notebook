@@ -3,7 +3,7 @@ title:               "A Bread Baker’s Notebook"
 description:         "A collection of work-in-progress sourdough bread experiments developed by Dana Johnson."
 # url:                 http://127.0.0.1:4000
 url:                 http://breadbakers-notebook.s3-website-us-west-2.amazonaws.com
-repository:          https://github.com/dnjohnson84/breadbakers-notebook
+repository:          https://github.com/dananjohnson/breadbakers-notebook
 baseurl:             ""
 typekit:             ily6mbo
 

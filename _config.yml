@@ -65,7 +65,7 @@ exclude:
   - tmp
   - bower.json
   - s3_website.yml
-gems:
+plugins:
   - jekyll-assets
 
 # Plugin: Jekyll Assets

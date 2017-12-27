@@ -1,0 +1,3 @@
+[submodule "bread-formulas"]
+	path = _recipes
+	url = https://github.com/dananjohnson/bread-formulas

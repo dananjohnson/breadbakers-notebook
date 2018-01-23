@@ -7,6 +7,8 @@
   max-width: $container-width;
   margin-left:  auto;
   margin-right: auto;
+  padding-left: $global-margin / 2;
+  padding-right: $global-margin / 2;
 }
 
 article {

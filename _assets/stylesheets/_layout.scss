@@ -11,13 +11,13 @@
   padding-right: $global-margin / 2;
 }
 
-article {
-  margin: 4rem 0;
+main {
+  margin-bottom: $global-margin;
 }
 
 .header {
 
   &--site {
-    margin: 2rem 0;
+    margin: $global-margin 0;
   }
 }
